@@ -1,11 +1,25 @@
+{-# LANGUAGE
+OverloadedStrings
+, EmptyDataDecls
+, GeneralizedNewtypeDeriving
+, MultiParamTypeClasses
+, DeriveGeneric
+, GADTs
+, TypeFamilies
+, TemplateHaskell
+, QuasiQuotes
+, FlexibleInstances
+, FlexibleContexts
+, StandaloneDeriving #-}
+
 -- Export our `Bookmark` record (model),
 -- the entity (bookmark) definition,
 -- and the entity fields' setters and getters
 
 module Model (
-    Bookmark(..)
-  , entityDefs
-  , EntityField(..)
+  Bookmark(..)
+, entityDefs
+, EntityField(..)
 ) where
 
 -- Needed for encoding and decoding to/from JSON
@@ -14,7 +28,7 @@ import GHC.Generics
 import Data.Aeson
 import Data.Default.Class
 
--- Needed for generating our bookmakr entity
+-- Needed for generating our bookmark entity
 
 import Database.Persist
 import Database.Persist.Class
@@ -24,10 +38,9 @@ import Database.Persist.TH
 
 share [mkPersist sqlSettings, mkSave "entityDefs"][persistLowerCase|
   Bookmark
-  -- Two field
-  title String
-  url   String
-  deriving Show Generic
+    title String
+    url   String
+    deriving Show Generic
 |]
 
 -- Defines the ToJSON interface for our `Bookmark` record

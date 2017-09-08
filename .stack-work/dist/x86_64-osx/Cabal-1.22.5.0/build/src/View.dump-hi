@@ -1,0 +1,824 @@
+
+==================== FINAL INTERFACE ====================
+2017-09-08 00:21:35.112205 UTC
+
+interface webBo_4FrJAsryo9PJPRu8J7toFg:View [family instance module] 7103
+  interface hash: 2272fedb928fcecb0c3b766db4c10ab7
+  ABI hash: 8a9a265374889e4e1a02ecbc6489405e
+  export-list hash: 7c55261f0369e7b86e51e083328865ec
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 0d4a72ca8895c087e5f89218601c846d
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  View.bookmarkAsJSONLBS
+  View.bookmarkJSONToBookmark
+  View.BookmarkJSON{View.BookmarkJSON View.bookmarkJSONTitle View.bookmarkJSONUrl}
+module dependencies: Model
+package dependencies: aeson-compat-0.3.5.1@aeson_1hb7qGvBjz72jxwnjLuqNP
+                      aeson-0.8.1.1@aeson_C8h5ptwBrpR9Sd608juoq9
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68
+                      auto-update-0.1.4@autou_Fnqbq5K41573zil7J3s62I base-4.8.2.0
+                      base64-bytestring-1.0.0.1@base6_AkCk8zInckjJsyQ4AIFHPN
+                      base-compat-0.9.1@basec_3Zy8UsyHmBEEwbReR8x1KT
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-html-0.8.1.1@blaze_1fCoF4onMJE2jDLBViwynk
+                      blaze-markup-0.7.0.3@blaze_JGtgJgx8yqB3DdKuU3sbgD
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      conduit-extra-1.1.13.2@condu_ErA3cnqLECU3HTXz8ANsgU
+                      conduit-1.2.6.6@condu_JdeDIbfFlF2LFouNeugyxh
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      easy-file-0.2.1@easyf_IjQ6MMskJyDEpOwcfCdF0G
+                      exceptions-0.8.2.1@excep_6lgwjdgwblY7rzh5s6SLd8
+                      fast-logger-2.4.6@fastl_KNzHEmV4CAC3sAdPGCavvx
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I
+                      http-api-data-0.2.3@httpa_44uDCYoXoz09GcvktwK5nV
+                      integer-gmp-1.0.0.0
+                      lifted-base-0.2.3.6@lifte_DoOvgrTvmEtENHs0ypaZTR
+                      mmorph-1.0.6@mmorp_42KUkOfzC6q3qCtAMiSHam
+                      monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS
+                      monad-logger-0.3.19@monad_Jpaa4yNisdy9E1eB6g8K3C
+                      monad-loops-0.4.3@monad_LQiHRUYhFhYBU7nOOWDOrb
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      old-locale-1.0.0.7@oldlo_7h2Gx6mVPJ5Gheca8j9Mpe
+                      old-time-1.1.0.3@oldti_JVjJvknZJ0JKghfag2Jw2L
+                      path-pieces-0.2.1@pathp_4qW9xznk5mC6aJZVVgmWEO
+                      persistent-template-2.1.8.1@persi_IMOUFIlZojA9Q3MH4zZeEI
+                      persistent-2.2.4.1@persi_Iwup97ClUtm0C9ZmZVjqom
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      resource-pool-0.2.3.2@resou_BPzNUl5kJsI1qo7V284Tgq
+                      resourcet-1.1.7.4@resou_HqDlSpmGRphG5PMbskXVNU
+                      scientific-0.3.4.8@scien_Elq5IFN7LP733k4M8RTP7H
+                      semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1
+                      silently-1.2.5@silen_5nVdOe0bUXfLPEbxHJT4m4
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      stm-chans-3.0.0.4@stmch_4ac5OLG4E0w1rpuIDCribD
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6 template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      time-locale-compat-0.1.1.3@timel_JqBSqBpv4WnGcW1nkQYzOp
+                      transformers-base-0.4.4@trans_74WedXVmfaHHDJItmBRTVp
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+                      unix-time-0.3.6@unixt_4DXmhADld9WFju1Q636Hdx
+                      unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+orphans: aeson-compat-0.3.5.1@aeson_1hb7qGvBjz72jxwnjLuqNP:Data.Aeson.Compat
+         aeson-0.8.1.1@aeson_C8h5ptwBrpR9Sd608juoq9:Data.Aeson.Types.Generic
+         aeson-0.8.1.1@aeson_C8h5ptwBrpR9Sd608juoq9:Data.Aeson.Types.Instances
+         attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.Text.Internal
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         persistent-template-2.1.8.1@persi_IMOUFIlZojA9Q3MH4zZeEI:Database.Persist.TH
+         persistent-2.2.4.1@persi_Iwup97ClUtm0C9ZmZVjqom:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.2.4.1@persi_Iwup97ClUtm0C9ZmZVjqom:Database.Persist.Sql.Orphan.PersistStore
+         persistent-2.2.4.1@persi_Iwup97ClUtm0C9ZmZVjqom:Database.Persist.Sql.Orphan.PersistUnique
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         unix-time-0.3.6@unixt_4DXmhADld9WFju1Q636Hdx:Data.UnixTime.Diff
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS:Control.Monad.Trans.Control
+                         monad-logger-0.3.19@monad_Jpaa4yNisdy9E1eB6g8K3C:Control.Monad.Logger
+                         persistent-2.2.4.1@persi_Iwup97ClUtm0C9ZmZVjqom:Database.Persist.Class.PersistConfig
+                         persistent-2.2.4.1@persi_Iwup97ClUtm0C9ZmZVjqom:Database.Persist.Sql.Orphan.PersistStore
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         resourcet-1.1.7.4@resou_HqDlSpmGRphG5PMbskXVNU:Control.Monad.Trans.Resource.Internal
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.List.NonEmpty
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         webBo_4FrJAsryo9PJPRu8J7toFg:Model
+import  -/  aeson-0.8.1.1@aeson_C8h5ptwBrpR9Sd608juoq9:Data.Aeson 4b364ef63240f20bf3cecd0f903e01b7
+import  -/  aeson-0.8.1.1@aeson_C8h5ptwBrpR9Sd608juoq9:Data.Aeson.Encode.ByteString 48e91d60f8b0097337c93259d8ed0bd4
+import  -/  aeson-0.8.1.1@aeson_C8h5ptwBrpR9Sd608juoq9:Data.Aeson.Types.Class f74dcfc2b549dd60d57d0350e6dc8f09
+import  -/  aeson-0.8.1.1@aeson_C8h5ptwBrpR9Sd608juoq9:Data.Aeson.Types.Instances e8f707601f3341067e26fd87748855d8
+import  -/  aeson-0.8.1.1@aeson_C8h5ptwBrpR9Sd608juoq9:Data.Aeson.Types.Internal c7db0226e48a1e24155d2115a74dc750
+import  -/  base-4.8.2.0:Data.Functor 5c701b0af1708f0192a25dfe14ce6274
+import  -/  base-4.8.2.0:Data.Int 1419fa899a36eeb2bd16fdb7f0a89738
+import  -/  base-4.8.2.0:Data.Maybe 1cb58de2b04ee3c0c0a7dc9201184aff
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Generics c00a6d11ff9e9cf35a82831f837d9e97
+import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString db2e56635ed30ff269e1492b64605a38
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Char8 14b30f113ad3d6d944ffa749b1c915e8
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Lazy 7b1dd178b3666e14ba91381002b4b4e3
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Lazy.Internal 372874e1a7c751c0cb07b7dc746f232b
+import  -/  data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD:Data.Default.Class e80ea6ea555665ab4b7ecc52cc0c771c
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  persistent-2.2.4.1@persi_Iwup97ClUtm0C9ZmZVjqom:Database.Persist 8473d525d60068707987c6b305bcce23
+import  -/  persistent-2.2.4.1@persi_Iwup97ClUtm0C9ZmZVjqom:Database.Persist.Class 1c36add74c880f282011ef496dc7bf65
+import  -/  persistent-2.2.4.1@persi_Iwup97ClUtm0C9ZmZVjqom:Database.Persist.Class.PersistEntity 171762df28e25fd40bda50ed1efbcc8c
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text b53ae191632883b10562be5cbaa0b22b
+import  -/  Model 82b3c39f9fd4cc37a7ead4b0301e5080
+  exports: 995fbc454be514b0c424ebe1847a85a7
+  Bookmark aa01d21a0e32924ebdbfe967194788a0
+  Bookmark b8229708f344a752e7341f872c304d24
+4329b63293dc785f636e94c0ce789cfe
+  $fConstructorBookmarkJSON ::
+    GHC.Generics.Constructor View.C1_0BookmarkJSON
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ View.C1_0BookmarkJSON
+                  View.$fConstructorBookmarkJSON_$cconName
+                  View.$fConstructorBookmarkJSON_$s$dmconFixity
+                  View.$fConstructorBookmarkJSON_$cconIsRecord -}
+85aeb89b18837279b337bde1438e6902
+  $fConstructorBookmarkJSON1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "BookmarkJSON"#) -}
+4329b63293dc785f636e94c0ce789cfe
+  $fConstructorBookmarkJSON_$cconIsRecord ::
+    t View.C1_0BookmarkJSON f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a3
+                   ds :: t View.C1_0BookmarkJSON f a3 ->
+                 GHC.Types.True) -}
+4329b63293dc785f636e94c0ce789cfe
+  $fConstructorBookmarkJSON_$cconName ::
+    t View.C1_0BookmarkJSON f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a3
+                   ds :: t View.C1_0BookmarkJSON f a3 ->
+                 View.$fConstructorBookmarkJSON1) -}
+4329b63293dc785f636e94c0ce789cfe
+  $fConstructorBookmarkJSON_$s$dmconFixity ::
+    t View.C1_0BookmarkJSON f a -> GHC.Generics.Fixity
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a3
+                   ds :: t View.C1_0BookmarkJSON f a3 ->
+                 GHC.Generics.Prefix) -}
+aa682b75d8b7e468e8b8566d13e102ee
+  $fDatatypeBookmarkJSON :: GHC.Generics.Datatype View.D1BookmarkJSON
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ View.D1BookmarkJSON
+                  View.$fDatatypeBookmarkJSON_$cdatatypeName
+                  View.$fDatatypeBookmarkJSON_$cmoduleName
+                  View.$fDatatypeBookmarkJSON_$s$dmisNewtype -}
+79cdc394d8b0b71c078e8277d8a71b38
+  $fDatatypeBookmarkJSON1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "View"#) -}
+aa682b75d8b7e468e8b8566d13e102ee
+  $fDatatypeBookmarkJSON_$cdatatypeName ::
+    t View.D1BookmarkJSON f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a3
+                   ds :: t View.D1BookmarkJSON f a3 ->
+                 View.$fConstructorBookmarkJSON1) -}
+aa682b75d8b7e468e8b8566d13e102ee
+  $fDatatypeBookmarkJSON_$cmoduleName ::
+    t View.D1BookmarkJSON f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a3
+                   ds :: t View.D1BookmarkJSON f a3 ->
+                 View.$fDatatypeBookmarkJSON1) -}
+aa682b75d8b7e468e8b8566d13e102ee
+  $fDatatypeBookmarkJSON_$s$dmisNewtype ::
+    t View.D1BookmarkJSON f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a3
+                   ds :: t View.D1BookmarkJSON f a3 ->
+                 GHC.Types.False) -}
+38ef9c406ef48f840957e07b90d89a89
+  $fFromJSONBookmarkJSON ::
+    Data.Aeson.Types.Class.FromJSON View.BookmarkJSON
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                View.$fFromJSONBookmarkJSON_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <View.BookmarkJSON>_N)) -}
+38ef9c406ef48f840957e07b90d89a89
+  $fFromJSONBookmarkJSON_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser View.BookmarkJSON
+  {- Arity: 1, Strictness: <S,1*U> -}
+38ef9c406ef48f840957e07b90d89a89
+  $fGenericBookmarkJSON :: GHC.Generics.Generic View.BookmarkJSON
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ View.BookmarkJSON
+                  View.$fGenericBookmarkJSON_$cfrom
+                  View.$fGenericBookmarkJSON_$cto -}
+38ef9c406ef48f840957e07b90d89a89
+  $fGenericBookmarkJSON_$cfrom ::
+    View.BookmarkJSON -> GHC.Generics.Rep View.BookmarkJSON x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x ds :: View.BookmarkJSON ->
+                 case ds of wild { View.BookmarkJSON g1 g2 ->
+                 (GHC.Generics.:*:
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         View.S1_0_0BookmarkJSON
+                         (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe GHC.Base.String)))
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         View.S1_0_1BookmarkJSON
+                         (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe GHC.Base.String)))
+                    @ x
+                    g1
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.NTCo:K1[0]
+                                   <GHC.Generics.R>_P <GHC.Base.Maybe GHC.Base.String>_R <x>_P))
+                         (Sym (GHC.Generics.NTCo:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <View.S1_0_0BookmarkJSON>_P
+                                   <GHC.Generics.K1
+                                      GHC.Generics.R (GHC.Base.Maybe GHC.Base.String)>_R) <x>_N))
+                    g2
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.NTCo:K1[0]
+                                   <GHC.Generics.R>_P <GHC.Base.Maybe GHC.Base.String>_R <x>_P))
+                         (Sym (GHC.Generics.NTCo:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <View.S1_0_1BookmarkJSON>_P
+                                   <GHC.Generics.K1
+                                      GHC.Generics.R (GHC.Base.Maybe GHC.Base.String)>_R) <x>_N)))
+                   `cast`
+                 (Trans
+                      (Sym (GHC.Generics.NTCo:M1[0]
+                                <GHC.Generics.C>_P
+                                <View.C1_0BookmarkJSON>_P
+                                <GHC.Generics.M1
+                                   GHC.Generics.S
+                                   View.S1_0_0BookmarkJSON
+                                   (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe GHC.Base.String))
+                                 GHC.Generics.:*: GHC.Generics.M1
+                                                    GHC.Generics.S
+                                                    View.S1_0_1BookmarkJSON
+                                                    (GHC.Generics.K1
+                                                       GHC.Generics.R
+                                                       (GHC.Base.Maybe GHC.Base.String))>_R))
+                      (Trans
+                           (Sym (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <View.D1BookmarkJSON>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        View.C1_0BookmarkJSON
+                                        (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           View.S1_0_0BookmarkJSON
+                                           (GHC.Generics.K1
+                                              GHC.Generics.R (GHC.Base.Maybe GHC.Base.String))
+                                         GHC.Generics.:*: GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            View.S1_0_1BookmarkJSON
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R
+                                                               (GHC.Base.Maybe
+                                                                  GHC.Base.String)))>_R))
+                           (Sub (Sym (View.Rep_BookmarkJSON[0])))) <x>_N) }) -}
+38ef9c406ef48f840957e07b90d89a89
+  $fGenericBookmarkJSON_$cto ::
+    GHC.Generics.Rep View.BookmarkJSON x -> View.BookmarkJSON
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x ds :: GHC.Generics.Rep View.BookmarkJSON x ->
+                 case ds
+                        `cast`
+                      (Trans
+                           (Sub (View.Rep_BookmarkJSON[0]))
+                           (Trans
+                                (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <View.D1BookmarkJSON>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        View.C1_0BookmarkJSON
+                                        (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           View.S1_0_0BookmarkJSON
+                                           (GHC.Generics.K1
+                                              GHC.Generics.R (GHC.Base.Maybe GHC.Base.String))
+                                         GHC.Generics.:*: GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            View.S1_0_1BookmarkJSON
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R
+                                                               (GHC.Base.Maybe
+                                                                  GHC.Base.String)))>_R)
+                                (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <View.C1_0BookmarkJSON>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.S
+                                        View.S1_0_0BookmarkJSON
+                                        (GHC.Generics.K1
+                                           GHC.Generics.R (GHC.Base.Maybe GHC.Base.String))
+                                      GHC.Generics.:*: GHC.Generics.M1
+                                                         GHC.Generics.S
+                                                         View.S1_0_1BookmarkJSON
+                                                         (GHC.Generics.K1
+                                                            GHC.Generics.R
+                                                            (GHC.Base.Maybe
+                                                               GHC.Base.String))>_R)) <x>_N) of wild { GHC.Generics.:*: ds1 ds2 ->
+                 View.BookmarkJSON
+                   ds1
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <View.S1_0_0BookmarkJSON>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Base.String)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.Maybe GHC.Base.String>_R <x>_P))
+                   ds2
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <View.S1_0_1BookmarkJSON>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Base.String)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.Maybe GHC.Base.String>_R <x>_P)) }) -}
+b3df5a7af2d636e8cada7bac998762c2
+  $fSelectorBookmarkJSON ::
+    GHC.Generics.Selector View.S1_0_0BookmarkJSON
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                View.$fSelectorBookmarkJSON_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0]
+                          <View.S1_0_0BookmarkJSON>_N)) -}
+981a634909642b5f80bffc1d6db74572
+  $fSelectorBookmarkJSON0 ::
+    GHC.Generics.Selector View.S1_0_1BookmarkJSON
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                View.$fSelectorBookmarkJSON0_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0]
+                          <View.S1_0_1BookmarkJSON>_N)) -}
+981a634909642b5f80bffc1d6db74572
+  $fSelectorBookmarkJSON0_$cselName ::
+    t View.S1_0_1BookmarkJSON f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a3
+                   ds :: t View.S1_0_1BookmarkJSON f a3 ->
+                 View.$fSelectorBookmarkJSON2) -}
+05e91e2abe0fc5b166bb79cf1edba4d6
+  $fSelectorBookmarkJSON1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "bookmarkJSONTitle"#) -}
+20848015ec1c8487772c72b3c9e86662
+  $fSelectorBookmarkJSON2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "bookmarkJSONUrl"#) -}
+b3df5a7af2d636e8cada7bac998762c2
+  $fSelectorBookmarkJSON_$cselName ::
+    t View.S1_0_0BookmarkJSON f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a3
+                   ds :: t View.S1_0_0BookmarkJSON f a3 ->
+                 View.$fSelectorBookmarkJSON1) -}
+38ef9c406ef48f840957e07b90d89a89
+  $fShowBookmarkJSON :: GHC.Show.Show View.BookmarkJSON
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ View.BookmarkJSON
+                  View.$fShowBookmarkJSON_$cshowsPrec
+                  View.$fShowBookmarkJSON_$cshow
+                  View.$fShowBookmarkJSON_$cshowList -}
+38ef9c406ef48f840957e07b90d89a89
+  $fShowBookmarkJSON1 :: View.BookmarkJSON -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ w :: View.BookmarkJSON ->
+                 case w of ww { View.BookmarkJSON ww1 ww2 ->
+                 View.$w$cshowsPrec 0 ww1 ww2 }) -}
+1d205fa64db65c647a75fa5570078995
+  $fShowBookmarkJSON2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+db715963ced1639fd6d0c2e653d34354
+  $fShowBookmarkJSON3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "bookmarkJSONUrl = "#) -}
+0d9768e960d6a59c7b429efe7c654b38
+  $fShowBookmarkJSON4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+6a7752e9cfdb19b8f300a1d0355a0249
+  $fShowBookmarkJSON5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "bookmarkJSONTitle = "#) -}
+96cf68580d6732de3f623e395ee7b4d1
+  $fShowBookmarkJSON6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "BookmarkJSON {"#) -}
+67d45a3f48a7bc032e0b3a87e8c744e5
+  $fShowBookmarkJSON7 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0) -}
+38ef9c406ef48f840957e07b90d89a89
+  $fShowBookmarkJSON_$cshow :: View.BookmarkJSON -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: View.BookmarkJSON ->
+                 View.$fShowBookmarkJSON_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+38ef9c406ef48f840957e07b90d89a89
+  $fShowBookmarkJSON_$cshowList ::
+    [View.BookmarkJSON] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ View.BookmarkJSON
+                   View.$fShowBookmarkJSON1) -}
+38ef9c406ef48f840957e07b90d89a89
+  $fShowBookmarkJSON_$cshowsPrec ::
+    GHC.Types.Int -> View.BookmarkJSON -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U(U)><S,1*U(1*U,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: GHC.Types.Int w1 :: View.BookmarkJSON ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { View.BookmarkJSON ww3 ww4 ->
+                 View.$w$cshowsPrec ww1 ww3 ww4 } }) -}
+38ef9c406ef48f840957e07b90d89a89
+  $fToJSONBookmarkJSON ::
+    Data.Aeson.Types.Class.ToJSON View.BookmarkJSON
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>m1,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                View.$fToJSONBookmarkJSON_$ctoJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:ToJSON[0]
+                          <View.BookmarkJSON>_N)) -}
+d39f3f29aaeaf0e0bc49ef2edbb16135
+  $fToJSONBookmarkJSON1 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+d11cc1286d9b20e3c84e26067d67fc34
+  $fToJSONBookmarkJSON2 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   View.$fToJSONBookmarkJSON3) -}
+6754b2937c3bc0c294c958d4ef2fae7c
+  $fToJSONBookmarkJSON3 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 View.$fToJSONBookmarkJSON5
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   View.$fToJSONBookmarkJSON4
+                   View.$fSelectorBookmarkJSON2
+                   0
+                   ipv }) -}
+cfb777a44102964bf56ca463d16cbcef
+  $fToJSONBookmarkJSON4 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4) -}
+1915e4900e4d5fa403b05448e3b761cd
+  $fToJSONBookmarkJSON5 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+6a9d41f7f996ee1c34d50b0f374ef70e
+  $fToJSONBookmarkJSON6 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+86145bf1cf1373174ec42208202c3ea1
+  $fToJSONBookmarkJSON7 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   View.$fToJSONBookmarkJSON8) -}
+2b7d936623123843b0faf199a75fb38d
+  $fToJSONBookmarkJSON8 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 View.$fToJSONBookmarkJSON9
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   View.$fToJSONBookmarkJSON4
+                   View.$fSelectorBookmarkJSON1
+                   0
+                   ipv }) -}
+8250318a3c6bb9e44bd09cd6956f0f25
+  $fToJSONBookmarkJSON9 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+38ef9c406ef48f840957e07b90d89a89
+  $fToJSONBookmarkJSON_$ctoJSON ::
+    View.BookmarkJSON -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>m1, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: View.BookmarkJSON ->
+                 case w of ww { View.BookmarkJSON ww1 ww2 ->
+                 case View.$w$ctoJSON ww1 ww2 of ww3 { (##) ww4 ->
+                 Data.Aeson.Types.Internal.Object ww4 } }) -}
+2d2276e351eeda171863cec442d69a3d
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Base.Maybe GHC.Base.String
+    -> GHC.Base.Maybe GHC.Base.String
+    -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,U><L,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int#
+                   ww1 :: GHC.Base.Maybe GHC.Base.String
+                   ww2 :: GHC.Base.Maybe GHC.Base.String ->
+                 let {
+                   f :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.$fShowMaybe_$cshowsPrec
+                       @ [GHC.Types.Char]
+                       GHC.Show.$fShow[]_$s$fShow[]1
+                       View.$fShowBookmarkJSON7
+                       ww1
+                 } in
+                 let {
+                   f1 :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.$fShowMaybe_$cshowsPrec
+                       @ [GHC.Types.Char]
+                       GHC.Show.$fShow[]_$s$fShow[]1
+                       View.$fShowBookmarkJSON7
+                       ww2
+                 } in
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ x :: GHC.Base.String ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       View.$fShowBookmarkJSON6
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          View.$fShowBookmarkJSON5
+                          (f (GHC.Base.++
+                                @ GHC.Types.Char
+                                View.$fShowBookmarkJSON4
+                                (GHC.Base.++
+                                   @ GHC.Types.Char
+                                   View.$fShowBookmarkJSON3
+                                   (f1
+                                      (GHC.Base.++ @ GHC.Types.Char View.$fShowBookmarkJSON2 x))))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11) of wild {
+                   GHC.Types.False -> p
+                   GHC.Types.True
+                   -> \ x :: GHC.Base.String ->
+                      GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows9
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows8 x)) }) -}
+dfe3ee3f3a8d0664ba959933b0f598c3
+  $w$ctoJSON ::
+    GHC.Base.Maybe GHC.Base.String
+    -> GHC.Base.Maybe GHC.Base.String
+    -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 2, Strictness: <L,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Base.Maybe GHC.Base.String
+                   ww1 :: GHC.Base.Maybe GHC.Base.String ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (View.$fToJSONBookmarkJSON7,
+                            case ww of wild {
+                              GHC.Base.Nothing -> Data.Aeson.Types.Internal.Null
+                              GHC.Base.Just a64
+                              -> case GHC.ST.runSTRep
+                                        @ Data.Text.Internal.Text
+                                        (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                                         case GHC.Prim.newByteArray#
+                                                @ s1
+                                                8
+                                                s2 of ds1 { (#,#) ipv ipv1 ->
+                                         View.$fToJSONBookmarkJSON6
+                                           @ s1
+                                           (Data.Text.Array.MArray @ s1 ipv1)
+                                           View.$fToJSONBookmarkJSON4
+                                           a64
+                                           0
+                                           ipv }) of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                                 Data.Aeson.Types.Internal.String dt } })
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (View.$fToJSONBookmarkJSON2,
+                               case ww1 of wild {
+                                 GHC.Base.Nothing -> Data.Aeson.Types.Internal.Null
+                                 GHC.Base.Just a64
+                                 -> case GHC.ST.runSTRep
+                                           @ Data.Text.Internal.Text
+                                           (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                                            case GHC.Prim.newByteArray#
+                                                   @ s1
+                                                   8
+                                                   s2 of ds1 { (#,#) ipv ipv1 ->
+                                            View.$fToJSONBookmarkJSON1
+                                              @ s1
+                                              (Data.Text.Array.MArray @ s1 ipv1)
+                                              View.$fToJSONBookmarkJSON4
+                                              a64
+                                              0
+                                              ipv }) of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                                    Data.Aeson.Types.Internal.String dt } })
+                              (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 (# dt #) }) -}
+38ef9c406ef48f840957e07b90d89a89
+  data BookmarkJSON
+    = BookmarkJSON {bookmarkJSONTitle :: GHC.Base.Maybe
+                                           GHC.Base.String,
+                    bookmarkJSONUrl :: GHC.Base.Maybe GHC.Base.String}
+4329b63293dc785f636e94c0ce789cfe
+  abstract(True) C1_0BookmarkJSON
+aa682b75d8b7e468e8b8566d13e102ee
+  abstract(True) D1BookmarkJSON
+38ef9c406ef48f840957e07b90d89a89
+  axiom Rep_BookmarkJSON::
+      GHC.Generics.Rep View.BookmarkJSON
+        = GHC.Generics.D1
+            View.D1BookmarkJSON
+            (GHC.Generics.C1
+               View.C1_0BookmarkJSON
+               (GHC.Generics.S1
+                  View.S1_0_0BookmarkJSON
+                  (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Base.String))
+                GHC.Generics.:*: GHC.Generics.S1
+                                   View.S1_0_1BookmarkJSON
+                                   (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Base.String))))
+b3df5a7af2d636e8cada7bac998762c2
+  abstract(True) S1_0_0BookmarkJSON
+981a634909642b5f80bffc1d6db74572
+  abstract(True) S1_0_1BookmarkJSON
+ffc50202d6f464cce0ab4ad3967b6b99
+  bookmarkAsJSONLBS ::
+    Database.Persist.Class.PersistEntity.Key Model.Bookmark
+    -> Model.Bookmark -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 2, Strictness: <L,U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ k :: Database.Persist.Class.PersistEntity.Key Model.Bookmark
+                   b :: Model.Bookmark ->
+                 Data.ByteString.Builder.toLazyByteString
+                   (Data.Aeson.Encode.ByteString.encodeToByteStringBuilder
+                      (Database.Persist.Class.PersistEntity.$wentityIdToJSON
+                         @ Model.Bookmark
+                         Model.$fToJSONBookmark_$ctoJSON
+                           `cast`
+                         (Sym (Data.Aeson.Types.Class.NTCo:ToJSON[0] <Model.Bookmark>_N))
+                         (Database.Persist.Class.PersistEntity.Entity
+                            @ Model.Bookmark
+                            Model.$fPersistEntityBookmark
+                            k
+                            b)))) -}
+beac0a237332912b2c615ea7ae565a10
+  bookmarkJSONTitle ::
+    View.BookmarkJSON -> GHC.Base.Maybe GHC.Base.String
+  RecSel View.BookmarkJSON
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: View.BookmarkJSON ->
+                 case ds of wild { View.BookmarkJSON ds1 ds2 -> ds1 }) -}
+88f2c82725847bfee8572806857130d2
+  bookmarkJSONToBookmark :: View.BookmarkJSON -> Model.Bookmark
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SS),1*U(1*U,1*U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ bookmarkJSON :: View.BookmarkJSON ->
+                 case bookmarkJSON of wild { View.BookmarkJSON ds ds1 ->
+                 case case ds of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.[] @ GHC.Types.Char
+                        GHC.Base.Just v -> v } of dt { DEFAULT ->
+                 case case ds1 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.[] @ GHC.Types.Char
+                        GHC.Base.Just v -> v } of dt1 { DEFAULT ->
+                 Model.Bookmark dt dt1 } } }) -}
+f0464e1ac7f8f0a1312b88f585041387
+  bookmarkJSONUrl ::
+    View.BookmarkJSON -> GHC.Base.Maybe GHC.Base.String
+  RecSel View.BookmarkJSON
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: View.BookmarkJSON ->
+                 case ds of wild { View.BookmarkJSON ds1 ds2 -> ds2 }) -}
+instance GHC.Generics.Constructor [View.C1_0BookmarkJSON]
+  = View.$fConstructorBookmarkJSON
+instance GHC.Generics.Datatype [View.D1BookmarkJSON]
+  = View.$fDatatypeBookmarkJSON
+instance Data.Aeson.Types.Class.FromJSON [View.BookmarkJSON]
+  = View.$fFromJSONBookmarkJSON
+instance GHC.Generics.Generic [View.BookmarkJSON]
+  = View.$fGenericBookmarkJSON
+instance GHC.Generics.Selector [View.S1_0_0BookmarkJSON]
+  = View.$fSelectorBookmarkJSON
+instance GHC.Generics.Selector [View.S1_0_1BookmarkJSON]
+  = View.$fSelectorBookmarkJSON0
+instance GHC.Show.Show [View.BookmarkJSON]
+  = View.$fShowBookmarkJSON
+instance Data.Aeson.Types.Class.ToJSON [View.BookmarkJSON]
+  = View.$fToJSONBookmarkJSON
+family instance GHC.Generics.Rep [View.BookmarkJSON]
+  = View.Rep_BookmarkJSON
+"SPEC/View $dmconFixity @ C1_0BookmarkJSON" [ALWAYS] forall $dConstructor :: GHC.Generics.Constructor
+                                                                               View.C1_0BookmarkJSON
+  GHC.Generics.$dmconFixity @ View.C1_0BookmarkJSON $dConstructor
+  = View.$fConstructorBookmarkJSON_$s$dmconFixity
+"SPEC/View $dmisNewtype @ D1BookmarkJSON" [ALWAYS] forall $dDatatype :: GHC.Generics.Datatype
+                                                                          View.D1BookmarkJSON
+  GHC.Generics.$dmisNewtype @ View.D1BookmarkJSON $dDatatype
+  = View.$fDatatypeBookmarkJSON_$s$dmisNewtype
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
