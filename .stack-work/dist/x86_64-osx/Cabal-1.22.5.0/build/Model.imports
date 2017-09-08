@@ -1,7 +1,0 @@
-import GHC.Generics ( Generic )
-import Data.Aeson ( ToJSON(..), object, (.=) )
-import Data.Default.Class ()
-import Database.Persist ( PersistEntity(EntityField) )
-import Database.Persist.Class ()
-import Database.Persist.TH
-    ( sqlSettings, share, persistLowerCase, mkSave, mkPersist )
